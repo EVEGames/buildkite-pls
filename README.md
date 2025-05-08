@@ -4,6 +4,9 @@ Browser extensions/plugins to polyfill features into Buildkite because BUILDKITE
 Specifically designed to work with [Pragma's](https://pragma.gg) deployment options.
 
 ## Firefox
+You can install from the official release: https://addons.mozilla.org/en-US/firefox/addon/buildkite-pls/
+
+Or you can install it as a temporary add-on:
 1. Navigate to about:debugging#/runtime/this-firefox
 2. Press `Load Temporary Add-on..`
 ![](readme-imgs/load-temp-addon.png)
