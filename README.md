@@ -14,7 +14,12 @@ Or you can install it as a temporary add-on:
 4. Refresh your Buildkite page
 
 ## Chrome
-Chrome is a second-class citizen, so I'll port it at a later point when I have more time.
+1. Navigate to chrome://extensions/
+2. Press `Load unpacked`
+3. Select `buildkite-pls/firefox-and-chrome/` as the directory.
+4. Refresh your Buildkite page
+
+There is no official release in the Chrome Web Store.
 
 ## Demo
-[Confluence](https://evegames.atlassian.net/wiki/spaces/CR/pages/1592426599/How+to+use+Buildkite+Pls) - For EVE friends only, sorry! The demo leaks sensitive info
+[Confluence](https://evegames.atlassian.net/wiki/spaces/CR/pages/1592426599/How+to+use+Buildkite+Pls) - For EVE friends only, sorry! The demo leaks sensitive info.
