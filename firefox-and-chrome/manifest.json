@@ -1,0 +1,21 @@
+{
+  "name": "Buildkite Pls",
+  "description": "Allows you to filter Buildkite dropdowns.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab"],
+  "icons": {
+    "48": "icon-48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.buildkite.com/*"],
+      "js": ["buildkite-pls.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Filter Options",
+    "default_icon": "icon-48.png"
+  }
+}
